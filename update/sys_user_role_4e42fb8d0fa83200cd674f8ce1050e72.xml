@@ -2,12 +2,13 @@
 <record_update table="sys_user_role">
     <sys_user_role action="INSERT_OR_UPDATE">
         <assignable_by/>
-        <can_delegate>true</can_delegate>
         <description/>
         <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_58872_needit.needit_user</name>
+        <scoped_admin>false</scoped_admin>
         <suffix>needit_user</suffix>
         <sys_class_name>sys_user_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -23,5 +24,6 @@
         <sys_update_name>sys_user_role_4e42fb8d0fa83200cd674f8ce1050e72</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2017-01-24 22:46:33</sys_updated_on>
+        <u_role_level/>
     </sys_user_role>
 </record_update>

@@ -9,6 +9,8 @@
         <filter table="x_58872_needit_needit">stateNOT IN3,4,7^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="NOT IN" or="false" value="3,4,7"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
+        <help_hint/>
+        <help_link/>
         <hint>A list of records in the NeedIt table that do not have a State value of Closed.</hint>
         <homepage/>
         <image/>
@@ -19,6 +21,7 @@
         <name>x_58872_needit_needit</name>
         <order>300</order>
         <override_menu_roles>false</override_menu_roles>
+        <populate_view/>
         <query/>
         <report/>
         <roles>x_58872_needit.needit_user</roles>
